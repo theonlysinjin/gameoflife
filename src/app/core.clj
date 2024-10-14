@@ -52,4 +52,3 @@
     (Thread/sleep 5000)
     (recur
       (reduce-kv (partial gol loop-grid) {} loop-grid))))
-
